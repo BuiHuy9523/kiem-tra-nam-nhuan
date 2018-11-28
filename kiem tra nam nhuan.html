@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>kiem tra nam nhuan</title>
+</head>
+<body>
+<script>
+    var a = parseInt(prompt("enter the year"));
+    if (a % 4 === 0){
+        if (a % 100 === 0){
+            if (a % 400 === 0){
+                alert ( a + " is a leap year");
+            }else {
+                alert (a + " is not leap year");
+            }
+        }else {
+            alert (a + " is not leap year ")
+        }
+    }else {
+        alert(a + " is not leap year")
+    }
+</script>
+</body>
+</html>
